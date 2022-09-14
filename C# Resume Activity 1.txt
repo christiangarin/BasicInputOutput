@@ -1,0 +1,64 @@
+using System;
+namespace ConsoleApp
+{
+    class GreetingProgram
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Enter your name: ");
+        string name = Console.ReadLine();
+        
+        Console.Write("Enter your present address: ");
+        string presadd = Console.ReadLine();
+        
+        Console.Write("Enter your permanent address: ");
+        string peradd= Console.ReadLine();
+        
+        Console.Write("Enter date of birth: ");
+        string birth= Console.ReadLine();
+        
+        Console.Write("Enter your civil status: ");
+        string status= Console.ReadLine();
+        
+        Console.Write("Enter your citizenship: ");
+        string cship= Console.ReadLine();
+        
+        Console.Write("Enter your birth place: ");
+        string bplace= Console.ReadLine();
+        
+        Console.Write("Enter your father's name: ");
+        string fname= Console.ReadLine();
+        
+        Console.Write("Enter your mother's name: ");
+        string mname= Console.ReadLine();
+        
+        Console.Write("Enter your address: ");
+        string add= Console.ReadLine();
+        
+        Console.Write("Enter your language or dialect spoken: ");
+        string lang= Console.ReadLine();
+        
+        Console.Write("Enter person to be notified incase of emergency: ");
+        string emer= Console.ReadLine();
+        
+        Console.Write("Enter your religion: ");
+        string rel= Console.ReadLine();
+        
+        Console.Write("Enter your age: ");
+        string age= Console.ReadLine();
+        
+        Console.Write("Enter your weight: ");
+        string weight= Console.ReadLine();
+        
+        Console.Write("Enter your height: ");
+        string height= Console.ReadLine();
+        
+        Console.ReadLine();
+        
+        Console.WriteLine("\nName: " + name + "\nPresent Addres: " + presadd+ "\nPermanent Address: " + peradd + "\nDate of Birth: " + birth +"\nCivil Status: " + status + "\nCitizenship :" + cship+"\nPlace of birth: " + bplace + "\nName of Father : " + fname+"\nName of Mother :" + mname + "\nAddress: " + add +"\nLanguages or dialect spoken :" + lang + "\nPerson to be notified incase of emergency :" + emer+"\n\nReligion :" + rel + "\nAge: " + age+"\nWeight: " + weight + "\nHeight: " + height );
+        
+        Console.Write("\nPress any key to exit.... ");
+        Console.ReadKey();
+    }
+    }
+}
